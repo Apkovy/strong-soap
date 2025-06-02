@@ -6,10 +6,10 @@
 'use strict';
 
 var url = require('url');
-var requestModule = require('request');
+var requestModule = require('@cypress/request');
 var debug = require('debug')('strong-soap:http');
 var debugSensitive = require('debug')('strong-soap:http:sensitive');
-var httpntlm = require('httpntlm-maa');
+var httpntlm = require('httpntlm');
 var uuid = require('uuid').v4;
 
 
