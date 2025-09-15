@@ -1,8 +1,13 @@
 # strong-soap
 
+<img src="https://raw.githubusercontent.com/loopbackio/loopback.io/gh-pages/images/branding/logo/blue/loopback.jpg" alt="LoopBack4 logo" width="400"/>
+
 [![CI](https://github.com/loopbackio/strong-soap/actions/workflows/continuous-integration.yaml/badge.svg)](https://github.com/loopbackio/strong-soap/actions/workflows/continuous-integration.yaml)
-[![Build Status](https://app.travis-ci.com/loopbackio/strong-soap.svg?branch=master)](https://app.travis-ci.com/loopbackio/strong-soap)
 [![Coverage Status](https://coveralls.io/repos/github/loopbackio/strong-soap/badge.svg?branch=master)](https://coveralls.io/github/loopbackio/strong-soap?branch=master)
+
+[![Twitter](https://img.shields.io/twitter/follow/strongloop.svg?style=social&label=Follow%20%40strongloop)](https://twitter.com/strongloop)
+[![LinkedIn](https://img.shields.io/badge/Follow%20us-white?logo=linkedIn&color=0077B5&logoColor=white)](https://www.linkedin.com/groups/5046525/)
+[![Slack](https://img.shields.io/badge/slack-Join%20workspace-%234A154B?logo=slack)](https://join.slack.com/t/loopbackio/shared_invite/zt-8lbow73r-SKAKz61Vdao~_rGf91pcsw)
 
 This module provides a Node.js SOAP client for invoking web services and a mock-up SOAP server capability to create and test your web service. This module is based on `node-soap` module.
 
@@ -67,10 +72,7 @@ Features:
 
 ## Install
 
-Node.js version 10, 12, and 14 are officially supported. We dropped version 8
-support in 3.0.0.
-
-Install with [npm](http://github.com/isaacs/npm):
+Install with [npm](https://github.com/npm/cli):
 
 ```sh
 npm install strong-soap
