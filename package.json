@@ -1,14 +1,14 @@
 {
   "name": "strong-soap",
-  "version": "4.1.12",
+  "version": "5.0.2",
   "description": "A minimal node SOAP client",
   "engines": {
-    "node": ">=18"
+    "node": ">=20"
   },
   "dependencies": {
-    "@cypress/request": "^3.0.8",
+    "@cypress/request": "^3.0.9",
     "compress": "^0.99.0",
-    "debug": "^4.4.1",
+    "debug": "^4.4.3",
     "httpntlm": "^1.8.13",
     "lodash": "^4.17.21",
     "node-rsa": "^1.1.1",
@@ -41,25 +41,24 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "@babel/cli": "^7.27.2",
-    "@babel/core": "^7.27.4",
-    "@babel/preset-env": "^7.27.2",
+    "@babel/cli": "^7.28.3",
+    "@babel/core": "^7.28.4",
+    "@babel/preset-env": "^7.28.3",
     "@commitlint/cli": "^19.8.1",
     "@commitlint/config-conventional": "^19.8.1",
     "async": "^3.2.6",
     "colors": "^1.4.0",
-    "coveralls": "^3.1.1",
     "diff": "^8.0.2",
     "doctoc": "^2.2.1",
     "duplexer": "^0.1.2",
-    "eslint": "^9.28.0",
+    "eslint": "^9.35.0",
     "eslint-config-google": "^0.14.0",
     "express": "^5.1.0",
     "express-ntlm": "2.7.0",
-    "glob": "^11.0.2",
+    "glob": "^11.0.3",
     "husky": "^9.1.7",
     "jshint": "^2.13.6",
-    "mocha": "^11.5.0",
+    "mocha": "^11.7.2",
     "nyc": "^17.1.0",
     "pinst": "^3.0.0",
     "readable-stream": "^4.7.0",
@@ -67,5 +66,5 @@
     "should": "^13.2.3",
     "timekeeper": "^2.3.1"
   },
-  "author": "IBM Corp."
+  "author": "IBM Corp. and LoopBack contributors"
 }
